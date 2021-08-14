@@ -647,13 +647,14 @@ Sticky Menu
 .eight-banner-section .eight-banner-content .banner-content-box .ei-banner-btn a:nth-child(1) {
   height: 55px;
   color: #fff;
-  width: 175px;
+  /* width: 175px; */
   line-height: 55px;
   text-align: center;
   border-radius: 50px;
   margin-right: 20px;
   border-top-right-radius: 0;
   background-color: #ff00d6;
+  padding: 5px;
 }
 
 .eight-banner-section .eight-banner-content .banner-content-box .ei-banner-btn a:nth-child(1) i {
@@ -2091,18 +2092,6 @@ Sticky Menu
   box-shadow: 0px 10px 20px 0px rgba(0, 5, 50, 0.1);
 }
 
-.ei-testimonial-section .ei-testimonial-img-text:before {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  left: -35px;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  background-repeat: no-repeat;
-  background-image: url(../img/app-landing/team/t-shape2.png);
-}
-
 .ei-testimonial-section .ei-testimonial-img-text .test--quote-icon {
   position: absolute;
   top: -20px;
@@ -2418,7 +2407,7 @@ Sticky Menu
 /*Footer  area*/
 /*----------------------------------------------------*/
 .ei-footer-section {
-  padding-top: 160px;
+  padding-top: 0px;
 }
 
 .ei-footer-widget .ei-widget-title {
