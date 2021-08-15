@@ -21,7 +21,15 @@
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
     <style>
+        fa-facebook li {
+            color: blue;
+        }
+
         ul.nav.nav-pills li {
             padding: 15px;
             background: aliceblue;
@@ -86,66 +94,64 @@
             color: #ff9800;
         }
 
-        .social-icon-list {
-            display: flex;
-            justify-content: center;
+        ul.social-icon-list-bottom {
+            list-style: none;
         }
 
-        .social-icon-list img:hover {
+        ul.social-icon-list-bottom li {
+            font-size: 33px;
+            padding-left: 13px;
+
             cursor: pointer;
         }
 
-        .social-icon-list2 {
-            display: flex;
-            justify-content: center;
+        a.fab {
+            color: #ffffff;
         }
 
-        .social-icon-list2 img:hover {
-            cursor: pointer;
+        a.fab.fa-facebook:hover {
+            color: blue;
+        }
+
+        a.fab.fa-twitter:hover {
+            color: #03a9f4;
+        }
+
+        a.fab.fa-telegram:hover {
+            color: rgb(70, 178, 250);
+        }
+
+        a.fab.fa-instagram:hover {
+            color: rgb(202, 40, 116);
+        }
+
+        a.fab.fa-reddit:hover {
+            color: rgb(245, 81, 4);
+        }
+
+        a.fab.fa-discord:hover {
+            color: rgb(229, 229, 252);
         }
 
         @media screen and (min-width: 320px) {
-            .social-icon-list img {
-                width: 9%;
-                margin-right: 10px;
-            }
 
-            .social-icon-list {
-                display: flex;
-                justify-content: center;
-            }
 
-            .social-icon-list2 img {
-                width: 12%;
-                margin-right: 10px;
-            }
-
-            .social-icon-list2 {
+            .social-icon-list-bottom {
                 display: flex;
                 justify-content: center;
             }
         }
 
         @media screen and (min-width: 500px) {
-            .social-icon-list img {
-                width: 6%;
-                margin-right: 10px;
-            }
 
-            .social-icon-list {
+            .social-icon-list-bottom {
                 display: flex;
                 justify-content: left;
             }
+        }
 
-            .social-icon-list2 img {
-                width: 12%;
-                margin-right: 10px;
-            }
-
-            .social-icon-list2 {
-                display: flex;
-                justify-content: left;
-            }
+        .text-justify {
+            text-align: justify;
         }
     </style>
 </head>
@@ -180,10 +186,10 @@
                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 </ul>
-            </div>
-            <div class="sign-up-btn-eight text-center float-right clearfix">
-                <a href="#">sign In</a>
             </div> -->
+            <div class="sign-up-btn-eight text-center float-right clearfix">
+                <a href="#">Sign In</a>
+            </div>
         </div>
         <!-- /desktop-menu -->
         <div class="appi-ei-mobile_menu relative-position">
@@ -238,8 +244,9 @@
                             <h2 class="text-white wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 First Binance Smart chain asset Management using Hybrid intelligence
                             </h2><br>
-                            <P class="wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                Rags creates the social and technological infrastructure needed to make effective
+                            <P class="wow fadeInLeft text-justify" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp;Rags creates the social and
+                                technological infrastructure needed to make effective
                                 Utility usages and decisions under the volatile conditions of the new economy.
                                 By combining a large number of diverse financial analysts and a set of machine- learning
                                 models into a single system, we are developing a Hybrid Intelligence infrastructure for
@@ -248,34 +255,64 @@
                                 The benefits of Hybrid Intelligence for an ecosystem and community are
 
                                 a technological and analytical infrastructure for the efficient and safe management of
-                                investors' capital by investors themselves or licensed managers;<br>
+                                investors' capital by investors themselves or licensed managers.<br>
 
-                                an opportunity for analysts to monetise their intellectual assets without risking their
-                                own funds;<br>
+                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp; An opportunity for analysts to
+                                monetise their intellectual assets without risking their
+                                own funds.<br>
 
                                 tools and data for making investment decisions under the conditions of market
-                                uncertainty;<br>
+                                uncertainty.<br>
 
-                                up-to-date analytics of the industry, expectations, opportunities, and mar- ket growth
+                                <span class="fa fa-arrow-right"></span>&nbsp;&nbsp;Up-to-date analytics of the industry,
+                                expectations, opportunities, and mar- ket growth
                                 points;<br>
 
                                 indices and ratings of crypto-assets.
                             </P>
-                            <div class="ei-banner-btn">
+                            <!-- <div class="ei-banner-btn">
                                 <a href="#">Buy on Currency ,Crypto , pancake</a>
-                            </div>
+                            </div> -->
                             <div class="ei-banner-review pera-content ul-li">
-                                <div class="social-icon-list">
-                                    <img src="./assets/img/social/Facebook-01.png" alt="">
-                                    <img src="./assets/img/social/Instagram-01.png" alt="">
-                                    <img src="./assets/img/social/Telegram-01.png" alt="">
+                                <div class="col-12 row">
+                                    <ul class="social-icon-list-bottom mt-3 mb-3">
+                                        <li>
+                                            <a target="_blank" href="https://www.facebook.com/ragsico/"
+                                                class="fab fa-facebook">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.instagram.com/ragscoin/"
+                                                class="fab fa-instagram">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://t.me/ragscoin" class="fab fa-telegram">
+                                            </a>
+                                        </li>
 
+                                    </ul>
                                 </div>
-                                <div class="social-icon-list mt-2">
-                                    <img src="./assets/img/social/Twitter-01.png" alt="">
-                                    <img src="./assets/img/social/Discord-01.png" alt="">
-                                    <img src="./assets/img/social/Reddit-01.png" alt="">
+                                <div class="col-12 row">
+                                    <ul class="social-icon-list-bottom">
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/Ragscoin"
+                                                class="fab fa-twitter">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://discord.com/channels/ragscoin"
+                                                class="fab fa-discord">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.reddit.com/user/ragscoin"
+                                                class="fab fa-reddit">
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
+
                             </div>
                         </div>
                         <div class="ei-banner-mbl-mockup wow fadeInRight" data-wow-delay="600ms"
@@ -409,7 +446,7 @@
                             <i class="fas fa-quote-right"></i>
                         </div>
                         <div class="ei-testimonial-img float-left text-center">
-                            <img src="assets/img/app-landing/testimonial/tst1.jpg" alt="">
+                            <img src="assets/img/app-landing/shape/fq-shape2.png" alt="">
                         </div>
                         <div class="ei-testimonial-text">
                             <div class="ei-testimonial-name appeight-headline pera-content">
@@ -452,12 +489,7 @@
         <div class="container">
             <div class="ei-appdownload-content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <img src="assets/img/app-landing/mockup/bm1.png" alt="">
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-6">
                         <div class="ei-app-down-text wow fadeFromLeft" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
@@ -465,7 +497,7 @@
                                 <span class="eg-title-tag">
                                     Rags<i class="square-shape"><i></i><i></i><i></i><i></i></i>
                                 </span>
-                                <h2>Rags will avail with Coinpayments 
+                                <h2>Rags will avail with Coinpayments
                                     <span>shortly.</span>
                                 </h2>
                                 <p>Rags partnership coinpayments allows merchants across the world on several top
@@ -473,6 +505,12 @@
                                     to integrate!.</p>
                             </div>
 
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
+                            data-wow-duration="1500ms">
+                            <img src="assets/img/app-landing/mockup/bm1.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -540,7 +578,7 @@
                     <div class="col-lg-6">
                         <div class="ei-app-mockup-img  wow fadeFromRight" data-wow-delay="300ms"
                             data-wow-duration="1500ms">
-                            <img src="assets/img/app-landing/mockup/bm1.png" alt="">
+                            <img src="assets/donation.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -650,7 +688,7 @@
                                             <li>Release the hybrid intelligence tool for social strategies companies
                                             </li>
                                             <li>Implement Rags Edutech platform</li>
-                                           
+
                                         </ul>
                                     </div>
                                     <div class="tab-pane" id="6a">
@@ -717,7 +755,7 @@
                                         <span class="eg-title-tag"><i class="square-shape"><i></i><i></i>
                                                 <i></i><i></i></i>
                                         </span>
-                                        <h2>How to buy Rags Coin in 
+                                        <h2>How to buy Rags Coin in
                                             <span>PancakeSwap</span>
                                         </h2>
                                     </div>
@@ -834,14 +872,37 @@
                             <h3>Subscribe to our <span>newsletter!</span></h3>
                             <div class="ei-newslatter-form position-relative row col-12">
                                 <div class="col-sm-12 col-md-6">
-                                    <div class="social-icon-list2 mt-3 mb-3">
-                                        <img src="./assets/img/social/Facebook-01.png" alt="">
-                                        <img src="./assets/img/social/Instagram-01.png" alt="">
-                                        <img src="./assets/img/social/Telegram-01.png" alt="">
-                                        <img src="./assets/img/social/Twitter-01.png" alt="">
-                                        <img src="./assets/img/social/Discord-01.png" alt="">
-                                        <img src="./assets/img/social/Reddit-01.png" alt="">
-                                    </div>
+                                    <ul class="social-icon-list-bottom mt-3 mb-3">
+                                        <li>
+                                            <a target="_blank" href="https://www.facebook.com/ragsico/"
+                                                class="fab fa-facebook">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.instagram.com/ragscoin/"
+                                                class="fab fa-instagram">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://t.me/ragscoin" class="fab fa-telegram">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://twitter.com/Ragscoin"
+                                                class="fab fa-twitter">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://discord.com/channels/ragscoin"
+                                                class="fab fa-discord">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.reddit.com/user/ragscoin"
+                                                class="fab fa-reddit">
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <form action="#">
